@@ -28,9 +28,9 @@ public class Predicates {
 	}
 
 	static void method1(Predicate<Integer> p, int[] x) {
-		for (int test : x) {
-			if (p.test(test)) {
-				System.out.println(test);
+		for (int eachvalue : x) {
+			if (p.test(eachvalue)) {
+				System.out.println(eachvalue);
 			}
 
 		}
